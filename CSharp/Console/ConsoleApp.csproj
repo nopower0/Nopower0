@@ -52,6 +52,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestPDQ\TestPDQ.csproj">
+      <Project>{4fd0716c-eb4a-4310-bbc6-ba19afbfac28}</Project>
+      <Name>TestPDQ</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

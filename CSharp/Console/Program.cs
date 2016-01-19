@@ -13,6 +13,9 @@ namespace ConsoleApp
     {
         private static void Main(string[] args)
         {
+            Sample.Write("Writing to console...");
+            Sample.Write("Hello World!");
+            Sample.Write("Writing complete.");
         }
     }
 }

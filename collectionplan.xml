@@ -163,7 +163,7 @@
             <MethodId>TestPDQ.Sample.Write(System.String):System.Void</MethodId>
             <ProgrammableDataQuery>
               <ModuleName>PDQ.dll</ModuleName>
-              <TypeName>PDQ.Sample</TypeName>
+              <TypeName>PDQ.SamplePDQ</TypeName>
             </ProgrammableDataQuery>
           </Binding>
         </Bindings>
