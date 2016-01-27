@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CollectionPlan xmlns="urn:schemas-microsoft-com:visualstudio:tracelog">
   <StartupInfo>
-    <LogFileName></LogFileName>
-    <LogFileDirectory></LogFileDirectory>
+    <LogFileName>log.iTrace</LogFileName>
+    <LogFileDirectory>D:\</LogFileDirectory>
     <MaximumLogFileSize>4000</MaximumLogFileSize>
   </StartupInfo>
   <CheckpointOptions>
@@ -56,7 +56,7 @@
     <ProcessList isExclusionList="true" />
   </DetourInstrumentation>
   <CoverageInstrumentation enabled="false" />
-  <DiagnosticEventInstrumentation enabled="false">
+  <DiagnosticEventInstrumentation enabled="true">
     <ModuleList isExclusionList="true" />
     <ProcessList isExclusionList="true">
       <Name>devenv.exe</Name>
